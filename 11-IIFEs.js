@@ -7,7 +7,7 @@
 //Example:
 
 (function salam(){
-   console.log( "Salam to all!" );
+   console.log( "Salam to all!" )
 })();
 
 
