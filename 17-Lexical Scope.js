@@ -9,6 +9,7 @@ function outerFunc() {
   let outerVar = 'I am from outside!';
 
   function innerFunc() {
+    let a, b, c;
     // the inner scope
     console.log(outerVar); // 'I am from outside!'
   }
