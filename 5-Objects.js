@@ -16,3 +16,12 @@ obj.c; // true
 obj["a"]; // "hello world"
 obj["b"]; // 42
 obj["c"]; // true
+
+// There are two types of objects: 
+// a) Literal Objects: 
+var myObj = {
+    key: value
+    };
+// b) Constructed Objects:
+var myObj = new Object();
+myObj.key = value;
